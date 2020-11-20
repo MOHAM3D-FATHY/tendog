@@ -1,0 +1,199 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Montserrat";
+  font-weight: 900;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Heading */
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.big-heading{
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+/* Container */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 15px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* Tittle Section */
+
+#title {
+  background-color: #ff4c68;
+  margin: 0;
+  color: #fff;
+  text-align: left;
+}
+
+#tittle .container-fluid{
+  padding: 3% 15% 7%;
+}
+
+/* Download Buttons */
+.downloadBtn {
+  margin: 5% 3% 5% 0;
+}
+
+/* Tittle Image */
+.doggoImg {
+  width: 50%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+@media (max-width: 1300px) {
+  .doggoImg {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+/* Fetures Section */
+#features {
+  background-color: white;
+  padding: 7% 15;
+  position: relative;
+}
+
+.feature-tittle{
+  font-size: 1.5rem;
+}
+
+.features-box {
+  padding: 10%;
+}
+
+.featuresHeader {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin: 20px auto;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial Section */
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-control-prev:hover{
+  background-color: #ff4c68;
+}
+.carousel-control-next:hover{
+  background-color: #ff4c68;
+}
+
+
+/* Pricing Section */
+#pricing {
+  padding: 7%;
+}
+
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.card-btn {
+  border-style: solid;
+  border-color: black;
+}
+
+.card-btn:hover {
+  background-color: #ff4c68;
+  color: white;
+}
+
+/* CTA */
+#cta {
+  background: #ff4c68;
+  color: #fff;
+}
+
+.cta-header {
+  line-height: 1.5;
+  font-size: 3.5rem;
+}
+
+/* Footer section */
+.fotter-icon {
+  margin: 20px 10px;
+}
+
+.fotter-anchor {
+  color: #8f8f8f;
+}
+
+.fotter-anchor:hover {
+  color: #ff4c68;
+}
